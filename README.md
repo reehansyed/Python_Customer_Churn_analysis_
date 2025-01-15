@@ -6,9 +6,8 @@
 - Data Cleaning and Preprocessing
 - Exploratory Data Analysis
 - Key Insights
-- Conclusion
 - Requirements
-- Usage
+- Conclusion
 - ## 📊 Project Overview
 This project aims to perform an in-depth analysis of customer churn in a telecom company using a comprehensive dataset that includes various customer attributes. By leveraging data exploration and visualization techniques, the goal is to identify and understand the key factors that contribute to customer churn. The analysis covers different aspects such as customer demographics, service usage, and payment methods, with the objective of uncovering patterns and correlations that can help the company mitigate churn and improve customer retention strategies.
 ## 📋 Dataset Description
@@ -61,5 +60,20 @@ The dataset consists of 7043 rows and 21 columns with the following features:
 - A series of count plots showed that customers who use services like PhoneService, InternetService, and OnlineSecurity are less likely to churn, while customers who do not use these services tend to churn more.
 ### 7. Churn by Payment Method:
 
-- Customers using electronic check as a payment method are more likely to churn compared to other payment methods.  
+- Customers using electronic check as a payment method are more likely to churn compared to other payment methods.
+## 💡Key Insights
+- Contract Type: Customers with month-to-month contracts are more likely to churn.
+- Service Usage: Customers who use services like PhoneService, InternetService, and OnlineSecurity are less likely to churn.
+- Payment Method: Electronic check users have a higher churn rate.
+## Requirements 📦
+- Python 3.x
+- Pandas
+- Numpy
+- Matplotlib
+- Seaborn
+You can install the necessary libraries using the following:
+- pip install pandas numpy matplotlib seaborn 
+## Conclusion 🏁
+The analysis provides valuable insights into the factors contributing to customer churn. The key drivers identified include the type of contract, service usage, and payment method. By focusing on these factors, the telecom company can work on strategies to reduce churn, such as offering longer contract terms and promoting essential services to customers.
+ 
 
