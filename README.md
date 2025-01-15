@@ -39,7 +39,7 @@ The dataset consists of 7043 rows and 21 columns with the following features:
 - Missing Values: There are no missing values in the dataset.
 - Data Type Conversion: The TotalCharges column was initially stored as a string with some blank spaces, which were replaced with zeros and converted to float.
 - Feature Transformation: The SeniorCitizen column, which contains binary values (0 and 1), was transformed into categorical values ("No" and "Yes") for easier interpretation.
-## Exploratory Data Analysis
+##  🔍 Exploratory Data Analysis
 ### 1. Churn Distribution:
 
 - A count plot and pie chart were used to show the distribution of churned vs non-churned customers.
