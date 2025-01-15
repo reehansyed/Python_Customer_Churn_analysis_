@@ -14,7 +14,7 @@ This project aims to perform an in-depth analysis of customer churn in a telecom
 ## Dataset Description
 - The dataset consists of 7043 rows and 21 columns with the following features:
 
-- customerID: Unique identifier for each customer.
+- ***customerID:** Unique identifier for each customer.
 - gender: Gender of the customer (Male/Female).
 - SeniorCitizen: Whether the customer is a senior citizen (1 for yes, 0 for no).
 - Partner: Whether the customer has a partner (Yes/No).
