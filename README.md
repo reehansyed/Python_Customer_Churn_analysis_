@@ -40,26 +40,26 @@ The dataset consists of 7043 rows and 21 columns with the following features:
 - Data Type Conversion: The TotalCharges column was initially stored as a string with some blank spaces, which were replaced with zeros and converted to float.
 - Feature Transformation: The SeniorCitizen column, which contains binary values (0 and 1), was transformed into categorical values ("No" and "Yes") for easier interpretation.
 ## Exploratory Data Analysis
-### 1.Churn Distribution:
+### 1. Churn Distribution:
 
 - A count plot and pie chart were used to show the distribution of churned vs non-churned customers.
 - 26.54% of the customers have churned.
-Churn by Gender:
+### 2. Churn by Gender:
 
-A count plot visualized churn distribution by gender, revealing that churn rates are fairly similar between males and females.
-Churn by Senior Citizen Status:
+- A count plot visualized churn distribution by gender, revealing that churn rates are fairly similar between males and females.
+### 3.Churn by Senior Citizen Status:
 
-Senior citizens have a higher churn rate compared to non-senior citizens, as shown by a stacked bar chart.
-Churn by Tenure:
+- Senior citizens have a higher churn rate compared to non-senior citizens, as shown by a stacked bar chart.
+### 4. Churn by Tenure:
 
-A histogram shows that customers who have been with the company for a longer period are less likely to churn, while those with shorter tenures are more likely to churn.
-Churn by Contract Type:
+- A histogram shows that customers who have been with the company for a longer period are less likely to churn, while those with shorter tenures are more likely to churn.
+### 5. Churn by Contract Type:
 
-Customers with month-to-month contracts have a higher churn rate compared to those with one-year or two-year contracts.
-Churn by Service Usage:
+- Customers with month-to-month contracts have a higher churn rate compared to those with one-year or two-year contracts.
+### 6. Churn by Service Usage:
 
-A series of count plots showed that customers who use services like PhoneService, InternetService, and OnlineSecurity are less likely to churn, while customers who do not use these services tend to churn more.
-Churn by Payment Method:
+- A series of count plots showed that customers who use services like PhoneService, InternetService, and OnlineSecurity are less likely to churn, while customers who do not use these services tend to churn more.
+### 7. Churn by Payment Method:
 
-Customers using electronic check as a payment method are more likely to churn compared to other payment methods.  
+- Customers using electronic check as a payment method are more likely to churn compared to other payment methods.  
 
