@@ -74,6 +74,6 @@ The dataset consists of 7043 rows and 21 columns with the following features:
 ### You can install the necessary libraries using the following:
 - pip install pandas numpy matplotlib seaborn 
 ## Conclusion 🏁
-The analysis provides valuable insights into the factors contributing to customer churn. The key drivers identified include the type of contract, service usage, and payment method. By focusing on these factors, the telecom company can work on strategies to reduce churn, such as offering longer contract terms and promoting essential services to customers.
+The analysis reveals valuable insights into the factors contributing to customer churn. Key drivers identified include contract type, service usage patterns, and payment methods. By addressing these areas, the telecom company can implement strategies to reduce churn—such as promoting longer-term contracts and encouraging the adoption of essential services.
  
 
